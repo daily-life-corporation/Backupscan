@@ -1,0 +1,56 @@
+
+@import url(https://fonts.googleapis.com/css?family=Kanit|Quicksand|Sarabun|Thasadith&display=swap);
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', "Kanit", sans-serif;
+}
+
+svg {
+  margin: 0.5em;
+}
+
+.navbar-item {
+  font-weight: 700;
+}
+
+.hero {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.title,
+.page-title {
+	font-weight: 700;
+	margin-bottom: 1rem;
+}
+
+.is-info {
+	background-color: #209cee;
+}
+
+.is-b5 {
+	background-color: #fff;
+}
+
+.card-content {
+    padding: 0.5rem !important;
+}
+
+.bd-sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 4rem;
+    z-index: 1;
+    height: calc(100vh - 4rem);
+}
+
+.bd-navbar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
